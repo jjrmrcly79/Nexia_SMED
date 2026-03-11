@@ -8,6 +8,7 @@ const NAV_ITEMS = [
     { path: '/optimize', label: 'Optimización', icon: '⚡' },
     { path: '/standards', label: 'Estándares', icon: '📋' },
     { path: '/dashboard', label: 'Resultados', icon: '📊' },
+    { path: '/manual', label: 'Manual', icon: '📘' },
 ];
 
 export default function Sidebar() {

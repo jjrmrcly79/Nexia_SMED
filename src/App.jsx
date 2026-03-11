@@ -6,6 +6,7 @@ import Classification from './pages/Classification';
 import Optimization from './pages/Optimization';
 import Standards from './pages/Standards';
 import Dashboard from './pages/Dashboard';
+import Manual from './pages/Manual';
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/optimize" element={<Optimization />} />
           <Route path="/standards" element={<Standards />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/manual" element={<Manual />} />
         </Routes>
       </main>
     </>
