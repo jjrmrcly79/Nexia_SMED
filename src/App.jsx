@@ -8,6 +8,7 @@ import Optimization from './pages/Optimization';
 import Standards from './pages/Standards';
 import Dashboard from './pages/Dashboard';
 import Manual from './pages/Manual';
+import About from './pages/About';
 import Login from './pages/Login';
 
 function ProtectedLayout() {
@@ -23,6 +24,7 @@ function ProtectedLayout() {
           <Route path="/standards" element={<Standards />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/manual" element={<Manual />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </main>
     </>
